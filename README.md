@@ -48,9 +48,12 @@ Uma vez carregado, toque o ícone do lapiz para editar o arquivo:
 
 
 # Perguntas frequentes: 
+
 ## COMO EDITAR OS ÍCONES E LOGOS? Como você pode ver, nas linhas **12 e 26** existem arquivos **,png** cujos nomes são `fav.png` e `logo.png`. `fav.png` é aquele exibido na aba do navegador e `logo.png` é aquele exibido dentro do gerador, o logo principal. Para editá-los, você precisa ir para a pasta `assets`, depois ir para a pasta `img` e dentro dela **apagar ambas as imagens**. Então você deve enviar o seu com os mesmos nomes. 
 
-![digite a descrição da imagem aqui](https://i.imgur.com/7rrIEJF.png) ## COMO MODIFICAR OS NOMES NOVAMENTE? Caso queira modificar algum dado, deverá reeditar o arquivo HTML desde que **NÃO MODIFIQUE NADA QUE JÁ ESTIVER MENCIONADO NESTE TUTORIAL.** > **Observação:** Se você já possui experiência ou conhecimento em **HTML E JAVASCRIPT** não modifique ou exclua nenhuma tag, pois o CCGEN ficará inutilizável. ## MEU CCGEN NÃO FUNCIONA OU PAROU DE FUNCIONAR: Se o seu gerador parou de funcionar após modificá-lo, significa que você excluiu algum componente importante e o sistema o detectou. Você terá que fazer o processo novamente. > 
+![digite a descrição da imagem aqui](https://i.imgur.com/7rrIEJF.png) ## COMO MODIFICAR OS NOMES NOVAMENTE? Caso queira modificar algum dado, deverá reeditar o arquivo HTML desde que **NÃO MODIFIQUE NADA QUE JÁ ESTIVER MENCIONADO NESTE TUTORIAL.** > **Observação:** Se você já possui experiência ou conhecimento em **HTML E JAVASCRIPT** não modifique ou exclua nenhuma tag, pois o CCGEN ficará inutilizável. 
+
+## MEU CCGEN NÃO FUNCIONA OU PAROU DE FUNCIONAR: Se o seu gerador parou de funcionar após modificá-lo, significa que você excluiu algum componente importante e o sistema o detectou. Você terá que fazer o processo novamente. > 
 **Se você conhece programação e excluiu algo intencionalmente, (o > créditos por exemplo) Receio que o gerador foi preparado para > isso e suas funções não serão executadas.** 
 
 # Créditos: Todo o desenvolvimento, modificação, cores e **tempo** foram dedicados por **[Sergio Yael Massieu](https://www.facebook.com/yaelmassieuwu)**, proprietário da [**Stery**] ( https://stery.dev) e programador nas horas vagas. Sempre pensei que se há conhecimento, ele deve ser difundido para o resto das pessoas, não tira nada de compartilhar com os outros. Se você chegou até aqui, muito obrigado. Se você quiser fazer uma doação ou reconhecimento, você pode escrever para mim em: yaeldev@tutanota.com **Obrigado novamente e espero que valorize o esforço e o tempo que levei para fazer tudo isso por você** 💕 
