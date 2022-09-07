@@ -1,139 +1,59 @@
-# BIENVENIDO A FREEGEN
 
-Con FreeGen podrás tener tu propio generador de tarjetas personalizado y online con **Github Pages.**
+# SEJA BEM VINDO AO FREEGEN Com CCGENBR pode ter seu propio gerador de cartões personalizadas e online com **Github Pages.** 
+## PREVIEW de como é o gerador: 
+![SINTONIA SULDESTE ](https://i.imgur.com/Cyk9TCf.png) 
 
-## PREVIEW de como quedaría:
-![enter image description here](https://i.imgur.com/Cyk9TCf.png)
+# TUTORIAL ¿Nenhuma experiência em programação? Não importa, es sencillo. Primero debes crear tu cuenta de Github. Registre-se simplesmente em "Signup". 
+## 1. Usar a planta Selecione o botão verde "Usar este modelo". 
 
-# TUTORIAL
 
-¿No tienes experiencia en programación? No importa, es sencillo. Primero debes crear tu cuenta de Github. Simplemente registrate en "Signup".
+![1](https://i.imgur.com/jVcr02U.png) 
+## 2. Configurar o novo repositório Te mostrará uma ventana donde: - **Nome do repositório:** será o novo nome do seu repositório. Ojo: Não será o mismo nombre de seu CCGEN, mas pode ser usado. - **Incluir todos os ramos:** garantiza que si en el futuro agrego cosas nuevas, podrás acceder a ellas. Debes marca a casilla. Luego, debes darle ***"Criar repositório a partir do modelo".*** 
 
-## 1. Usar la plantilla
+![2](https://i.imgur.com/lPg9s7t.png) 
+# 3. Personalização Agora você verá uma pantalla com todos os novos arquivos do gerador, entre eles: `index.html` Toca **index.html** e espera que carregar. 
 
-Selecciona el botón verde "Use this template".
+![3](https://i.imgur.com/oFchMk2.png) 
+Uma vez carregado, toque o ícone do lapiz para editar o arquivo:
 
-![1](https://i.imgur.com/jVcr02U.png)
+![4](https://i.imgur.com/8CSRp5m.png) 
+## MODIFICAR INDEX.HTML Agora você verá todas as linhas que compõem o CCGEN. Lembre-se de editar apenas os itens dentro da **caixa vermelha e somente conforme o exemplo.** - 
 
-## 2. Configurar el nuevo repositorio
+**Linha 5:** Permite dar um nome ao seu CCGEN, é aquele que será mostrado na aba do navegador. - 
 
-Te mostrará una ventana donde:
-  - **Repository name:** será el nuevo nombre de tu repositorio. Ojo: No será el mismo nombre de tu CCGEN pero puedes usarlo.
-  - **Include all branches:** garantiza que si en el futuro agrego cosas nuevas, podrás acceder a ellas. Debes marcar la casilla.
+**Linha 8:** Permite que você coloque uma descrição no seu CCGEN, que será exibido nos buscadores. - 
 
-Luego, debes darle ***"Create repository from template".***
+**Linha 10:** É colocar seu nome como autor do CCGEN ou pode deixar assim, nada acontece. - 
 
-![2](https://i.imgur.com/lPg9s7t.png)
+**Linha 26:** Permite nomear seu CCGEN, é o nome que será exibido na página principal e o mais importante. - 
 
-# 3. Personalización
+**Linha 27:** Permite que você faça uma breve descrição do seu CCGEN, seja um slogan, uma frase ou algo assim. ele vai mostrar o mesmo na página formar-se. 
 
-Ahora verás una pantalla con todos los nuevos archivos del generador, entre ellos: `index.html`
-Toca **index.html** y espera que cargue.
+![5](https://i.imgur.com/7v2tQNC.png) 
+## ATUALIZAR INDEX.HTML Depois de terminar de editar ao seu gosto, role até a parte inferior da página e clique no botão verde que diz **"Commit changes"**
 
-![3](https://i.imgur.com/oFchMk2.png)
+![6](https://i.imgur.com/kbqCKyi.png) > **Observação:** Você não deve **modificar** mais nada, pois pode tornar seu gerador inutilizável e terá que repetir o processo. 
+# COLOQUE SEU CCGEN ONLINE Estamos quase terminando, agora é hora de colocar seu novo CCGEN online. Para isso você deve ir em "Configurações" no topo. 
 
-Una vez haya cargado, toca el icono del Lapiz para editar el archivo:
+![7](https://i.imgur.com/ZDoyPyc.png) Agora vá para "Páginas" e aqui você deve configurar o seguinte: - **Fonte:** `Deploy from a branch`. - **Ramo:** `Principal`. - **Pasta:** `root` (deixe o padrão após escolher `main`). **Agora você deve clicar em "SALVAR" e esperar.** Imagem em anexo de como deve ficar: 
 
-![4](https://i.imgur.com/8CSRp5m.png)
-
-## MODIFICAR INDEX.HTML
-
-Ahora verás todas las lineas que conforman el CCGEN.
-Recuerda solo editar las cosas que estén dentro del **cuadro rojo y solo como se observa en el ejemplo.**
-
- - **La línea 5:** Te permite darle un nombre a tu CCGEN, es el que se mostrará en la pestaña del navegador.
-   
--   **La línea 8:** Te permite ponerle una descripción a tu CCGEN, la que se mostrará en los buscadores.
-   
- -  **La línea 10:** Es para poner tu nombre como autor del CCGEN o bien podrías dejarlo así, no pasa nada.
-   
-  - **La línea 26:** Te permite darle nombre a tu CCGEN, es el nombre que se mostrará en la página principal y el más importante.
-   
-   - **La línea 27:** Te permite darle una descripción corta a tu CCGEN, ya sea un eslogan, una frase o algo. se mostrará igual en la página
-   principal.
-
-![5](https://i.imgur.com/7v2tQNC.png)
-
-## ACTUALIZAR INDEX.HTML
-
-Ya que hayas terminado de editar a tu gusto, ve hasta abajo de la página y dale al botón verde que dice **"Commit changes"**
-
-![6](https://i.imgur.com/kbqCKyi.png)
-
-> **Nota:** No debes **modificar** ninguna otra cosa, porque puedes dejar inservible tu generador y deberás repetir el proceso.
-
-# PONER ONLINE TU CCGEN
-
-Ya casi hemos terminado, ahora toca poner online tu nuevo CCGEN.  Para eso debes ir a "Settings" en la parte superior.
-
-![7](https://i.imgur.com/ZDoyPyc.png)
-
-Ahora dirigete a "Pages" y aquí debes configurar lo siguiente:
-
- - **Source:** `Deploy from a branch`.
- - 
-   **Branch:** `Main`.
- -  
-   **Carpeta:** `root` (dejar por defecto luego de elegir `main`).
-
-**Ahora debes darle "SAVE" y esperar.**
-Adjunto imagen de cómo debe quedar:
-
-![8](https://i.imgur.com/FYl0HWX.png)
-
-## OBTENER LA URL DE TU CCGEN
-Si ya hiciste lo anterior, ahora refresca la página y verás lo siguiente:
+![8](https://i.imgur.com/FYl0HWX.png) ## OBTENHA A URL DO SEU CCGEN Se você já fez o acima, agora atualize a página e você verá o seguinte: 
 
 ![9](https://i.imgur.com/TJbyVXG.png)
 
-> Ahora solo toca el botón **"Visit Site"** y te llevará a tu nuevo
-> CCGEN personalizado. Procura guardar ese link en un blog de notas o
-> guardarlo como Favorito en tu navegador.
+> Agora basta tocar no botão **"Visitar Site"** e ele o levará ao seu novo > CCGEN personalizado. Tente salvar esse link em um bloco de notas ou > salve-o como Favorito em seu navegador. 
+# RESULTADO FINAL Se você tiver feito todos os passos corretamente, você verá este belo CCGEN personalizado com todos os seus dados! 
 
-# RESULTADO FINAL
-Si has hecho bien todos los pasos, verás este bonito CCGEN personalizado con todos tus datos!
-
-![FINAL](https://i.imgur.com/Cyk9TCf.png)
-
-# Preguntas Frecuentes:
-
-## ¿ CÓMO EDITAR LOS ICONOS Y LOGOS?
-
-Cómo pudiste observar, en las líneas **12 y 26** hay archivos **,png** cuyos nombres son `fav.png` y `logo.png`.
-
-`fav.png` es el que se muestra en la pestaña del navegador y `logo.png` el que se muestra dentro del generador, el logo principal.
-
-Para editarlos, debes ir a la carpeta `assets`, luego entrar a la carpeta `img` y dentro de ahí **borrar ambas imagenes**. Luego debes subir las tuyas con los mismos nombres.
-
-![enter image description here](https://i.imgur.com/7rrIEJF.png)
-
-## ¿CÓMO VOLVER A MODIFICAR LOS NOMBRES?
-
-Si quieres modificar algún dato, debes volver a editar el archivo HTML siempre y cuando **NO MODIFIQUES NADA QUE SEA LO YA MENCIONADO EN ESTE TUTORIAL.**
-
-> **Nota:** Si ya tienes experiencia o conocimiento en **HTML Y JAVASCRIPT** no modifiques ni elimines ninguna etiqueta, pues el CCGEN quedará inservible.
-
-## MI CCGEN NO FUNCIONA O DEJÓ DE FUNCIONAR:
-
-Si tu generador dejó de funcionar luego de modificarlo, significa que borraste algún componente importante y el sistema lo detectó. Deberás volver a hacer el proceso.
-
-> **Si sabes de programación y borraste intencionalmente algo, (los
-> créditos por ejemplo) me temo que el generador estaba preparado para
-> eso y no se ejecutarán sus funciones.**
+![END](https://i.imgur.com/Cyk9TCf.png) 
 
 
-# Créditos:
+# Perguntas frequentes: 
+## COMO EDITAR OS ÍCONES E LOGOS? Como você pode ver, nas linhas **12 e 26** existem arquivos **,png** cujos nomes são `fav.png` e `logo.png`. `fav.png` é aquele exibido na aba do navegador e `logo.png` é aquele exibido dentro do gerador, o logo principal. Para editá-los, você precisa ir para a pasta `assets`, depois ir para a pasta `img` e dentro dela **apagar ambas as imagens**. Então você deve enviar o seu com os mesmos nomes. 
 
-Todo el desarrollo, modificación, colores, y **tiempo** fueron con dedicación por **[Sergio Yael Massieu](https://www.facebook.com/yaelmassieuwu)**, dueño de [**Stery**](https://stery.dev) y programador en ratos libres. Siempre he pensado que si hay conocimiento, hay que esparcirlo al resto de personas, no nos quita nada compartir con los demás.
+![digite a descrição da imagem aqui](https://i.imgur.com/7rrIEJF.png) ## COMO MODIFICAR OS NOMES NOVAMENTE? Caso queira modificar algum dado, deverá reeditar o arquivo HTML desde que **NÃO MODIFIQUE NADA QUE JÁ ESTIVER MENCIONADO NESTE TUTORIAL.** > **Observação:** Se você já possui experiência ou conhecimento em **HTML E JAVASCRIPT** não modifique ou exclua nenhuma tag, pois o CCGEN ficará inutilizável. ## MEU CCGEN NÃO FUNCIONA OU PAROU DE FUNCIONAR: Se o seu gerador parou de funcionar após modificá-lo, significa que você excluiu algum componente importante e o sistema o detectou. Você terá que fazer o processo novamente. > 
+**Se você conhece programação e excluiu algo intencionalmente, (o > créditos por exemplo) Receio que o gerador foi preparado para > isso e suas funções não serão executadas.** 
 
-Si llegaste hasta aquí, muchas gracias. Si quieres realizar una donación o un reconocimiento, puedes escribirme al correo:
-yaeldev@tutanota.com
+# Créditos: Todo o desenvolvimento, modificação, cores e **tempo** foram dedicados por **[Sergio Yael Massieu](https://www.facebook.com/yaelmassieuwu)**, proprietário da [**Stery**] ( https://stery.dev) e programador nas horas vagas. Sempre pensei que se há conhecimento, ele deve ser difundido para o resto das pessoas, não tira nada de compartilhar com os outros. Se você chegou até aqui, muito obrigado. Se você quiser fazer uma doação ou reconhecimento, você pode escrever para mim em: yaeldev@tutanota.com **Obrigado novamente e espero que valorize o esforço e o tempo que levei para fazer tudo isso por você** 💕 
 
-**De nuevo gracias y espero valoren el esfuerzo y tiempo que me tomó hacer todo esto para ustedes** 💕
-
-Mis otras redes:
-
- - **[Telegram](https://t.me/steryoff)**
- - [**Instagram**](https://instagram.com/yaelmassieuwu)
-  - [**Github**](https://github.com/bystrokr)
-  - [**Twitter**](https://twitter.com/yaelmassieuwu)
+Minhas outras redes:
+ - **[Telegram](https://t.me/chksintoniasuldeste)*
